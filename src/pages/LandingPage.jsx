@@ -1,15 +1,15 @@
-import TopHeader from "../components/TopHeader";
+
 import HeroSection from "../components/HeroSection";
 import PropertiesByAreaFeatureCar from "../components/PropertiesByAreaFeatureCar";
 import LatestPropertiesOfRentCard from "../components/LatestPropertiesOfRentCard";
 import LatestPropertiesOfRentCard1 from "../components/LatestPropertiesOfRentCard1";
 import LatestPropertiesOfRentCard2 from "../components/LatestPropertiesOfRentCard2";
-import FooterSection from "../components/FooterSection";
+
 
 const LandingPage = () => {
   return (
     <div className="w-full relative bg-gray-white flex flex-col items-center justify-start leading-[normal] tracking-[normal]">
-      <TopHeader />
+     
       <HeroSection />
       <section className="self-stretch flex flex-col items-center justify-start py-[53px] px-[50px] box-border gap-[45px] max-w-full text-center text-21xl text-primary-800 font-body-regular-500 lg:pl-[25px] lg:pr-[25px] lg:box-border mq450:pt-[22px] mq450:pb-[22px] mq450:box-border mq825:gap-[22px] mq825:pt-[34px] mq825:pb-[34px] mq825:box-border">
         <div className="self-stretch flex flex-col items-center justify-start py-0 px-[30px] gap-6">
@@ -85,7 +85,7 @@ const LandingPage = () => {
       <LatestPropertiesOfRentCard />
       <LatestPropertiesOfRentCard1 />
       <LatestPropertiesOfRentCard2 />
-      <FooterSection />
+      
     </div>
   );
 };

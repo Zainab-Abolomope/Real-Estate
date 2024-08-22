@@ -4,8 +4,17 @@ import {
   Route,
   useNavigationType,
   useLocation,
+  BrowserRouter,
 } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
+import About from "./pages/About";
+import Project from "./pages/Project";
+
+import ContactUs from "./pages/ContactUs";
+import Properties from "./pages/Properties";
+import SinglePage from './pages/singlePage'
+
+
 
 function App() {
   const action = useNavigationType();
@@ -44,9 +53,23 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
+     
+
+<Routes>
       <Route path="/" element={<LandingPage />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/gallery" element={<Project/>} />
+      <Route path="/contact" element={<ContactUs/>} />
+      <Route path="/properties" element={<Properties/>} />
+      <Route path="single/:id" element={<SinglePage />}/>
     </Routes>
+     
+    
+   
+  
+    
+    
+   
   );
 }
 export default App;

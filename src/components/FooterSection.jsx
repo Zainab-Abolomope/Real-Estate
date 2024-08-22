@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const FooterSection = ({ className = "" }) => {
   return (
     <footer
-      className={`self-stretch flex flex-row items-start justify-start p-[50px] box-border max-w-full text-left text-5xl text-gray-black font-body-regular-400 lg:pl-[25px] lg:pr-[25px] lg:box-border mq450:pt-8 mq450:pb-8 mq450:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start p-[50px] box-border max-w-full text-left text-5xl text-gray-black  bg-gray-300s font-body-regular-400 lg:pl-[25px] lg:pr-[25px] lg:box-border mq450:pt-8 mq450:pb-8 mq450:box-border ${className}`}
     >
       <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-5 lg:flex-wrap lg:justify-center">
         <div className="w-[312px] flex flex-col items-start justify-start gap-5 text-center text-primary-500 font-body-regular-500">
