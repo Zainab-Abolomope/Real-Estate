@@ -12,7 +12,7 @@ import Project from "./pages/Project";
 
 import ContactUs from "./pages/ContactUs";
 import Properties from "./pages/Properties";
-import SinglePage from './pages/singlePage'
+// import SinglePage from './pages/singlePage'
 
 
 
@@ -61,7 +61,7 @@ function App() {
       <Route path="/gallery" element={<Project/>} />
       <Route path="/contact" element={<ContactUs/>} />
       <Route path="/properties" element={<Properties/>} />
-      <Route path="single/:id" element={<SinglePage />}/>
+      {/* <Route path="single/:id" element={<SinglePage />}/> */}
     </Routes>
      
     
