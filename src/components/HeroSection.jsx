@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const HeroSection = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-col items-center justify-start py-[120px] px-[30px] box-border bg-[url('/public/hero-section@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-33xl text-gray-white font-body-regular-400 mq825:pt-[78px] mq825:pb-[78px] mq825:box-border ${className}`}
+      className={`self-stretch flex flex-col items-center justify-start py-[120px] px-[30px] box-border bg-[url('https://www.nikken.co.jp/en/projects/tg1is20000004iym-img/pj0281_01_tmb.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-33xl text-gray-white font-body-regular-400 mq825:pt-[78px] mq825:pb-[78px] mq825:box-border ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-center gap-[62px] max-w-full mq450:gap-[15px] mq825:gap-[31px]">
         <div className="self-stretch flex flex-col items-center justify-start gap-6">
@@ -12,9 +12,7 @@ const HeroSection = ({ className = "" }) => {
             Find Your Dream Home
           </h1>
           <div className="self-stretch relative text-xl leading-[28px] font-body-regular-500 text-primary-50 mq450:text-base mq450:leading-[22px]">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+          Partner with our expert architects to create spaces that inspire" gives a reason why they should take action
           </div>
         </div>
         <div className="self-stretch flex flex-col items-center justify-start gap-[17px] max-w-full text-base text-primary-700 font-body-regular-500">
@@ -47,7 +45,7 @@ const HeroSection = ({ className = "" }) => {
                   <img
                     className="h-1.5 w-2.5 relative overflow-hidden shrink-0 object-cover"
                     alt=""
-                    src="/vector@2x.png"
+                    src="https://www.nikken.co.jp/en/projects/tg1is2000000508w-img/pj0320_01_tmb.jpg"
                   />
                 </div>
               </div>

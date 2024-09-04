@@ -12,16 +12,14 @@ const LatestPropertiesOfRentCard1 = ({ className = "" }) => {
             Latest Properties of Rent
           </h1>
           <div className="self-stretch relative text-xl leading-[28px] text-gray-400 mq450:text-base mq450:leading-[22px]">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+          Get inspired by our portfolio of diverse architectural designs. Discover how we can bring your vision to life.
           </div>
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-start justify-center py-0 px-5 box-border gap-x-10 gap-y-[38.7px] max-w-full text-left text-base text-gray-white mq825:gap-[19px]">
           <Card1 />
-          <Card1 propBackgroundImage="url('/card-21@3x.png')" />
-          <Card1 propBackgroundImage="url('/card-31@3x.png')" />
-          <Card1 propBackgroundImage="url('/card-41@3x.png')" />
+          <Card1 propBackgroundImage="url('https://www.nikken.co.jp/en/projects/tg1is200000051o8-img/pj0325_01_tmb.jpg')" />
+          <Card1 propBackgroundImage="url('https://www.nikken.co.jp/en/projects/tg1is200000053q7-img/pj0329_01_tmb.jpg')" />
+          <Card1 propBackgroundImage="url('https://www.nikken.co.jp/en/projects/tg1is200000051a5-img/pj0324_01_tmb.jpg')" />
         </div>
       </div>
       <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded flex flex-row items-start justify-start whitespace-nowrap hover:bg-steelblue mq450:w-[calc(100%_-_40px)]">

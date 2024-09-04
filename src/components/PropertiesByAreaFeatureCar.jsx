@@ -12,9 +12,11 @@ const PropertiesByAreaFeatureCar = ({ className = "" }) => {
             Properties by Area
           </h1>
           <div className="self-stretch relative text-xl leading-[28px] text-gray-400 mq450:text-base mq450:leading-[22px]">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+          Ready to build the home you’ve always wanted? Let’s start the journey together. Our team will guide you every step of the way.
+
+
+
+
           </div>
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-between py-0 px-[207px] gap-5 text-left text-base text-gray-700 lg:pl-[103px] lg:pr-[103px] lg:box-border mq825:pl-[51px] mq825:pr-[51px] mq825:box-border">

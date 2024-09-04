@@ -2,32 +2,46 @@ import React from 'react';
 
 const Vision = () => {
   return (
-    <div className="p-6 max-w-4xl mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 text-center text-gray-700">
-        
-        <div className="lg:col-span-1">
-          <h2 className="text-xl font-bold mb-4">BRAND VISION</h2>
-          <p className="mb-4">We are experts who integrate the skills, knowledge, and experience needed to bring our clients' ideas to life.</p>
-          <p className="mb-4">We are eager to listen to their voices, to share their vision, and together, to shape spaces, environments, cities, and society.</p>
-          <p className="mb-4">We invent new possibilities by bringing together the right mix of experience, creativity, and passion to deliver that exceeds expectations.</p>
-          <p>For 100 years, we have worked hand-in-hand with clients, designing solutions and environments that create truly meaningful experiences for all.</p>
+    <section>
+    <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
+        <div className="relative z-10 lg:py-16">
+          <div className="relative h-64 sm:h-80 lg:h-full">
+            <img
+              alt=""
+              src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+          </div>
         </div>
+  
+        <div className="relative flex items-center bg-gray-100">
+          <span
+            className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"
+          ></span>
+  
+          <div className="p-8 sm:p-16 lg:p-24">
+            <h2 className="text-2xl font-bold sm:text-3xl">
+            Take the first step toward your new project. Get in Touch for a free site assessment, and we’ll provide you with a detailed plan to move forward.
+            </h2>
+  
+            <p className="mt-4 text-gray-600">
+            Explore our latest projects from the comfort of your home. Schedule a virtual tour and experience our designs firsthand.
 
-        <div className="lg:col-span-1">
-          <h2 className="text-xl font-bold mb-4">BRAND TAGLINE</h2>
-          <p className="text-2xl font-semibold">EXPERIENCE, INTEGRATED</p>
-          <p className="mt-2">Integrating accumulated proficiency to deliver rich experiences.</p>
-        </div>
 
-        <div className="lg:col-span-1">
-          <h2 className="text-xl font-bold mb-4">MOTTO</h2>
-          <p className="mb-4">more than creative</p>
-          <p className="mb-4">Immutability</p>
-          <p>Fair and neutral manner</p>
+            </p>
+  
+            <a
+              href="/contact"
+              className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+            >
+              Get in Touch
+            </a>
+          </div>
         </div>
-        
       </div>
     </div>
+  </section>
   );
 };
 

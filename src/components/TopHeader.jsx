@@ -22,18 +22,20 @@ const TopHeader = ({ className = "" }) => {
             alt="Logo"
             src="/houseline@2x.png"
           />
+
+          
           <div className="flex flex-col items-start justify-start">
-            <h2 className="m-0 relative text-inherit leading-[24px] font-semibold inline-block min-w-[53px] whitespace-nowrap">
-              REIS
+            <h2 className="m-0 relative text-inherit leading-[24px] font-semibold inline-block min-w-[53px] whitespace-nowrap cursor-pointer hover:text-3xl transition-transform">
+              NIKKEN
             </h2>
-            <span className="relative text-sm leading-[16px] font-medium text-[inherit] inline-block min-w-[68px] whitespace-nowrap">
+            <span className="relative text-sm leading-[16px] font-medium text-[inherit] inline-block min-w-[68px] whitespace-nowrap cursor-pointer hover:text-3xl transition-transform">
               Real Estate
             </span>
           </div>
         </div>
 
         {/* Navigation Links for Desktop */}
-        <nav className="w-[810px] flex flex-row items-center justify-end gap-9 max-w-full lg:w-[60px] mq450:gap-[18px] lg:hidden text-[17px]">
+        <nav className="w-[810px] flex flex-row items-center justify-end gap-9 max-w-full lg:w-[60px] mq450:gap-[18px] lg:hidden text-[14px]">
           <Link
             to="/"
             className="relative leading-[22px] inline-block min-w-[43px] [text-decoration:none]"
@@ -48,7 +50,7 @@ const TopHeader = ({ className = "" }) => {
           </Link>
           <Link
             to="/properties"
-            className="relative leading-[22px] font-semibold inline-block min-w-[87px] [text-decoration:none]"
+            className="relative leading-[22px]  inline-block min-w-[87px] [text-decoration:none]"
           >
             PROPERTIES
           </Link>

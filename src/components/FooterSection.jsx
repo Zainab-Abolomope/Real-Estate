@@ -16,7 +16,7 @@ const FooterSection = ({ className = "" }) => {
             />
             <div className="flex flex-col items-start justify-start">
               <a className="[text-decoration:none] relative leading-[24px] font-semibold text-[inherit] inline-block min-w-[53px] mq450:text-lgi mq450:leading-[19px]">
-                REIS
+                NIKKEN
               </a>
               <a className="[text-decoration:none] relative text-sm leading-[16px] font-medium text-[inherit] inline-block min-w-[68px]">
                 Real State
@@ -29,8 +29,9 @@ const FooterSection = ({ className = "" }) => {
             </h3>
             <div className="relative leading-[24px]">Call : +123 400 123</div>
             <div className="self-stretch relative leading-[24px]">
-              Praesent nulla massa, hendrerit vestibulum gravida in, feugiat
-              auctor felis.
+            Ready to build the home you’ve always wanted? Let’s start the journey together. Our team will guide you every step of the way.
+
+
             </div>
             <div className="relative leading-[24px] text-gray-700">
               Email: example@mail.com

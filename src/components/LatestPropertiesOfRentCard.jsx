@@ -12,16 +12,15 @@ const LatestPropertiesOfRentCard = ({ className = "" }) => {
             Latest Properties of Rent
           </h1>
           <div className="self-stretch relative text-xl leading-[28px] text-gray-400 mq450:text-base mq450:leading-[22px]">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+          Schedule a Free Consultation" is a specific, low-commitment action that leads to further engagement.
+
           </div>
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center py-0 px-5 box-border gap-x-8 gap-y-[30.7px] max-w-full text-left text-mini-5 text-gray-700 mq825:gap-[15px]">
-          <Card propertyImage="/property-image@2x.png" />
-          <Card propertyImage="/property-image-1@2x.png" />
-          <Card propertyImage="/property-image-2@2x.png" />
-          <Card propertyImage="/property-image-3@2x.png" />
+          <Card propertyImage="https://www.nikken.co.jp/en/projects/tg1is20000004uho-img/pj0298_01_tmb.jpg" />
+          <Card propertyImage="https://www.nikken.co.jp/en/projects/tg1is20000004u6s-img/pj0296_01_tmb.jpg" />
+          <Card propertyImage="https://www.nikken.co.jp/en/projects/tg1is20000004tja-img/pj0294_01_tmb.jpg" />
+          <Card propertyImage="https://www.nikken.co.jp/en/news/news/tg1is20000004vdx-img/20240401_tmb.jpg" />
         </div>
       </div>
       <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded flex flex-row items-start justify-start whitespace-nowrap hover:bg-steelblue mq450:w-[calc(100%_-_40px)]">

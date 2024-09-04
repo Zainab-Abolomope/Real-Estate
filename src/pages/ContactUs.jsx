@@ -11,9 +11,7 @@ const LatestPropertiesOfRentCard2 = ({ className = "" }) => {
             Contact us
           </h1>
           <div className="self-stretch relative text-xl leading-[28px] text-gray-400 mq450:text-base mq450:leading-[22px]">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+          Stay ahead of the curve with the latest trends and insights in architecture. Join our newsletter for exclusive content and updates.
           </div>
         </div>
         <div className="self-stretch shadow-[0px_0px_24px_rgba(0,_0,_0,_0.03)] rounded-xl bg-gray-white flex flex-col items-center justify-start py-7 px-[30px] box-border gap-[17px] max-w-full text-left text-5xl text-darkslategray font-poppins mq450:pt-5 mq450:pb-5 mq450:box-border">

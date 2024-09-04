@@ -13,7 +13,7 @@ const PropertyType = ({ className = "", propertyType, text }) => {
         <img
           className="h-1.5 w-2.5 relative overflow-hidden shrink-0 object-cover"
           alt=""
-          src="/vector@2x.png"
+          src="https://www.nikken.co.jp/en/projects/tg1is2000000508w-img/pj0320_01_tmb.jpg"
         />
       </div>
     </div>
