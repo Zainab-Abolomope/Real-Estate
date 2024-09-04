@@ -10,48 +10,70 @@ const Vision = () => {
         alt=""
         className="w-full h-auto"
       />
+<div>
+      {/* Hero Section */}
+      <section className="bg-cover bg-center h-64 md:h-96 flex items-center justify-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)' }}>
+        <h1 className="text-4xl md:text-6xl text-white font-bold">About Us</h1>
+      </section>
 
-      {/* Content Section */}
-      <div className="p-4 sm:p-6 lg:p-8 max-w-4xl mx-auto">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 text-center text-gray-700">
-          {/* Brand Vision */}
-          <div className="lg:col-span-1">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold mb-4">BRAND VISION</h2>
-            <p className="text-sm sm:text-base lg:text-lg mb-4">
-              We are experts who integrate the skills, knowledge, and experience needed to bring our clients' ideas to life.
-            </p>
-            <p className="text-sm sm:text-base lg:text-lg mb-4">
-              We are eager to listen to their voices, to share their vision, and together, to shape spaces, environments, cities, and society.
-            </p>
-            <p className="text-sm sm:text-base lg:text-lg mb-4">
-              We invent new possibilities by bringing together the right mix of experience, creativity, and passion to deliver that exceeds expectations.
-            </p>
-            <p className="text-sm sm:text-base lg:text-lg">
-              For 100 years, we have worked hand-in-hand with clients, designing solutions and environments that create truly meaningful experiences for all.
-            </p>
-          </div>
+      {/* Mission Section */}
+      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">Our Mission</h2>
+          <p className="mt-4 text-gray-600">
+            At our company, we are dedicated to providing exceptional services and products that enhance the quality of life for our customers. Our mission is to innovate and lead the industry with integrity, creativity, and sustainability.
+          </p>
+        </div>
+      </section>
 
-          {/* Brand Tagline */}
-          <div className="lg:col-span-1">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold mb-4">BRAND TAGLINE</h2>
-            <p className="text-xl sm:text-2xl lg:text-3xl font-semibold">EXPERIENCE, INTEGRATED</p>
-            <p className="text-sm sm:text-base lg:text-lg mt-2">
-              Integrating accumulated proficiency to deliver rich experiences.
-            </p>
-          </div>
-
-          {/* Motto */}
-          <div className="lg:col-span-1">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold mb-4">MOTTO</h2>
-            <p className="text-sm sm:text-base lg:text-lg mb-4">more than creative</p>
-            <p className="text-sm sm:text-base lg:text-lg mb-4">Immutability</p>
-            <p className="text-sm sm:text-base lg:text-lg">Fair and neutral manner</p>
+      {/* Team Section */}
+      <section className="py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-semibold text-center text-gray-800 mb-12">Meet the Team</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {/* Team Member 1 */}
+            <div className="text-center">
+              <img src="https://via.placeholder.com/150" alt="Team Member 1" className="w-32 h-32 mx-auto rounded-full" />
+              <h3 className="mt-4 text-xl font-semibold text-gray-700">John Doe</h3>
+              <p className="text-gray-500">CEO</p>
+            </div>
+            {/* Team Member 2 */}
+            <div className="text-center">
+              <img src="https://via.placeholder.com/150" alt="Team Member 2" className="w-32 h-32 mx-auto rounded-full" />
+              <h3 className="mt-4 text-xl font-semibold text-gray-700">Jane Smith</h3>
+              <p className="text-gray-500">CTO</p>
+            </div>
+            {/* Team Member 3 */}
+            <div className="text-center">
+              <img src="https://via.placeholder.com/150" alt="Team Member 3" className="w-32 h-32 mx-auto rounded-full" />
+              <h3 className="mt-4 text-xl font-semibold text-gray-700">Bob Johnson</h3>
+              <p className="text-gray-500">Architect Designer</p>
+            </div>
+            {/* Team Member 4 */}
+            <div className="text-center">
+              <img src="https://via.placeholder.com/150" alt="Team Member 4" className="w-32 h-32 mx-auto rounded-full" />
+              <h3 className="mt-4 text-xl font-semibold text-gray-700">Alice Davis</h3>
+              <p className="text-gray-500">Marketing</p>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Bottom About Section */}
-      <BottomAbout />
+      {/* CTA Section */}
+      <section className="py-12 bg-indigo-600 text-white text-center">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-semibold">Want to Work with Us?</h2>
+          <p className="mt-4">Partner with our expert architects to create spaces that inspire. Whether you're planning a new build or a renovation, our team is ready to turn your ideas into reality.
+
+!</p>
+          <a href="/contact" className="mt-6 inline-block bg-white text-indigo-600 px-6 py-3 font-semibold rounded hover:bg-gray-100 transition duration-300">
+            Get in Touch
+          </a>
+        </div>
+      </section>
+    </div>
+
+     
     </>
   );
 };
