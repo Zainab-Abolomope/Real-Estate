@@ -1,5 +1,6 @@
 import React from 'react';
 import BottomAbout from '../components/BottomAbout';
+import { Link } from 'react-router-dom';
 
 const Vision = () => {
   return (
@@ -66,9 +67,9 @@ const Vision = () => {
           <p className="mt-4">Partner with our expert architects to create spaces that inspire. Whether you're planning a new build or a renovation, our team is ready to turn your ideas into reality.
 
 !</p>
-          <a href="/contact" className="mt-6 inline-block bg-white text-indigo-600 px-6 py-3 font-semibold rounded hover:bg-gray-100 transition duration-300">
+          <Link to="/contact" className="mt-6 inline-block bg-white text-indigo-600 px-6 py-3 font-semibold rounded hover:bg-gray-100 transition duration-300">
             Get in Touch
-          </a>
+          </Link>
         </div>
       </section>
     </div>
