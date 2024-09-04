@@ -58,7 +58,7 @@ const LandingPage = () => {
               <div className="h-[241px] flex-[0.8438] rounded-lg flex flex-row items-start justify-start pt-4 pb-[158px] pl-4 pr-[514px] box-border relative bg-[url('https://www.nikken.co.jp/en/projects/tg1is20000004yjs-img/pj0313_01_tmb.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[415px] max-w-full mq825:min-w-full mq825:flex-1">
                 <div className="!m-[0] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px]">
                   <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] inline-block min-w-[108px] mq450:text-lgi mq450:leading-[26px]">
-                    Dakota Apartments
+                     Apartments
                   </h3>
                   <div className="relative text-base leading-[24px] text-center inline-block min-w-[77px]">
                     20 Spaces
@@ -68,7 +68,7 @@ const LandingPage = () => {
               <div className="h-[241px] flex-1 rounded-lg flex flex-row items-start justify-start pt-4 pb-[158px] pl-4 pr-[494px] box-border relative bg-[url('https://www.nikken.co.jp/en/projects/tg1is20000004iym-img/pj0281_01_tmb.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[415px] max-w-full mq825:min-w-full">
                 <div className="!m-[0] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px]">
                   <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] inline-block min-w-[128px] mq450:text-lgi mq450:leading-[26px]">
-                    Beauty Apartments
+                     Apartments
                   </h3>
                   <div className="relative text-base leading-[24px] text-center inline-block min-w-[77px]">
                     15 Spaces

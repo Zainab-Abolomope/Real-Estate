@@ -56,9 +56,11 @@ const BottomProject = () => {
   ];
 
   return (
-    <div className="grid grid-cols-4  lg:grid-cols-2 gap-6  lg:px-10 m-[4em]">
+
+  
+    <div className="grid grid-cols-4  lg:grid-cols-1 gap-6  lg:px-10 m-[4em]">
       {projects.map((item, index) => (
-        <div key={index} className="border shadow-lg rounded-lg hover:scale-105 duration-300 overflow-hidden  [text-decoration:none]">
+        <div key={index} className="border shadow-lg rounded-lg hover:scale-105 duration-300   [text-decoration:none]">
           <Link to='/'>
             <img className="w-full h-auto " src={item.imgUrl} alt={item.title} />
             <div className="flex flex-col p-4">
