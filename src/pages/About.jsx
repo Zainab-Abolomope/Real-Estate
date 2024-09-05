@@ -22,7 +22,9 @@ const Vision = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">Our Mission</h2>
           <p className="mt-4 text-gray-600">
-            At our company, we are dedicated to providing exceptional services and products that enhance the quality of life for our customers. Our mission is to innovate and lead the industry with integrity, creativity, and sustainability.
+          We believe in designing spaces that inspire, elevate, and endure. With over 10 years of experience in the architecture industry, we have established ourselves as leaders in creating innovative, functional, and sustainable designs that reflect our clients' aspirations and the surrounding environment.
+
+Our Mission
           </p>
         </div>
       </section>
@@ -34,25 +36,25 @@ const Vision = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {/* Team Member 1 */}
             <div className="text-center">
-              <img src="https://via.placeholder.com/150" alt="Team Member 1" className="w-32 h-32 mx-auto rounded-full" />
+              <img src="/first.jpg" alt="Team Member 1" className="w-32 h-32 mx-auto rounded-full" />
               <h3 className="mt-4 text-xl font-semibold text-gray-700">John Doe</h3>
               <p className="text-gray-500">CEO</p>
             </div>
             {/* Team Member 2 */}
             <div className="text-center">
-              <img src="https://via.placeholder.com/150" alt="Team Member 2" className="w-32 h-32 mx-auto rounded-full" />
+              <img src="/second.jpg" alt="Team Member 2" className="w-32 h-32 mx-auto rounded-full" />
               <h3 className="mt-4 text-xl font-semibold text-gray-700">Jane Smith</h3>
-              <p className="text-gray-500">CTO</p>
+              <p className="text-gray-500">Head Manufacturer</p>
             </div>
             {/* Team Member 3 */}
             <div className="text-center">
-              <img src="https://via.placeholder.com/150" alt="Team Member 3" className="w-32 h-32 mx-auto rounded-full" />
+              <img src="/third.jpg" alt="Team Member 3" className="w-32 h-32 mx-auto rounded-full" />
               <h3 className="mt-4 text-xl font-semibold text-gray-700">Bob Johnson</h3>
               <p className="text-gray-500">Architect Designer</p>
             </div>
             {/* Team Member 4 */}
             <div className="text-center">
-              <img src="https://via.placeholder.com/150" alt="Team Member 4" className="w-32 h-32 mx-auto rounded-full" />
+              <img src="/fourth.jpg" alt="Team Member 4" className="w-32 h-32 mx-auto rounded-full" />
               <h3 className="mt-4 text-xl font-semibold text-gray-700">Alice Davis</h3>
               <p className="text-gray-500">Marketing</p>
             </div>
